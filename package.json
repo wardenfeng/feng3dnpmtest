@@ -7,7 +7,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wardenfeng/feng3dnpmtest.git"
+  },
+  "keywords": [
+    "feng3d"
+  ],
   "author": "feng",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wardenfeng/feng3dnpmtest/issues"
+  },
+  "homepage": "https://github.com/wardenfeng/feng3dnpmtest#readme",
   "dependencies": {}
 }
