@@ -1,6 +1,5 @@
-import { Vector3D } from "./Vector3D";
-import { Orientation3D } from "./Orientation3D";
-
+namespace feng3d
+{
 /**
  * Matrix3D 类表示一个转换矩阵，该矩阵确定三维 (3D) 显示对象的位置和方向。
  * 该矩阵可以执行转换功能，包括平移（沿 x、y 和 z 轴重新定位）、旋转和缩放（调整大小）。
@@ -909,4 +908,5 @@ export class Matrix3D {
         this.rawData[15] = 1;
     }
 
+}
 }

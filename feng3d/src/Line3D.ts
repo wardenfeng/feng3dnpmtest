@@ -1,4 +1,5 @@
-import { Vector3D } from "./Vector3D";
+namespace feng3d
+{
 
 /**
  * 3d直线
@@ -52,4 +53,5 @@ export class Line3D {
         var newPoint: Vector3D = this.position.add(lengthDir);
         return newPoint;
     }
+}
 }

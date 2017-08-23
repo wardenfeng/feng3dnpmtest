@@ -1,6 +1,5 @@
-
-import { Point } from "./Point";
-
+namespace feng3d
+{
 let rectanglePool: Rectangle[] = [];
 
 /**
@@ -345,4 +344,5 @@ export class Rectangle {
             Math.max(result.bottom, toUnion.bottom) - t);
         return result;
     }
+}
 }

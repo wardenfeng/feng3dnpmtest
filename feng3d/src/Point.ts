@@ -1,4 +1,5 @@
-
+namespace feng3d
+{
     var DEG_TO_RAD = Math.PI / 180;
 
     /**
@@ -174,3 +175,4 @@
             return [this.x, this.y];
         }
     }
+}

@@ -1,4 +1,5 @@
-
+namespace feng3d
+{
     /**
      * 数学常量类
      */
@@ -15,3 +16,4 @@
 		 */
         static DEGREES_TO_RADIANS = Math.PI / 180;
     }
+}

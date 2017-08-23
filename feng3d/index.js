@@ -2542,3 +2542,5 @@ var feng3d;
     }());
     feng3d.Rectangle = Rectangle;
 })(feng3d || (feng3d = {}));
+
+module.exports = feng3d;

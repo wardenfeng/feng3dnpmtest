@@ -1,6 +1,5 @@
-import { Vector3D } from "./Vector3D";
-import { Matrix3D } from "./Matrix3D";
-
+namespace feng3d
+{
 /**
  * A Quaternion object which can be used to represent rotations.
  */
@@ -338,4 +337,5 @@ export class Quaternion {
         this.z = q.z;
         this.w = q.w;
     }
+}
 }

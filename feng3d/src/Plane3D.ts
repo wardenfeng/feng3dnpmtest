@@ -1,7 +1,5 @@
-import { Line3D } from "./Line3D";
-import { Vector3D } from "./Vector3D";
-import { PlaneClassification } from "./PlaneClassification";
-
+namespace feng3d
+{
 	/**
 	 * 3d面
 	 */
@@ -236,3 +234,4 @@ export class Plane3D
             return "Plane3D [this.a:" + this.a + ", this.b:" + this.b + ", this.c:" + this.c + ", this.d:" + this.d + "]";
         }
     }
+}
