@@ -1145,3 +1145,4 @@ declare namespace feng3d {
         union(toUnion: Rectangle): Rectangle;
     }
 }
+export = feng3d;

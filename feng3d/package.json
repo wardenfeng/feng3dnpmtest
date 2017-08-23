@@ -1,6 +1,6 @@
 {
   "name": "feng3d",
-  "version": "1.0.14",
+  "version": "1.0.17",
   "description": "webgl 3d engine",
   "main": "index.js",
   "types": "index.d.ts",
@@ -15,6 +15,10 @@
     "feng3d",
     "webgl",
     "3d engine"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts"
   ],
   "author": "feng",
   "license": "ISC",
