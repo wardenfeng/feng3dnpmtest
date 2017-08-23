@@ -8,3 +8,9 @@ var B = (function () {
     return B;
 }());
 exports.B = B;
+// namespace feng3d {
+//     export class B {
+//         b = 1;
+//         fb() { }
+//     }
+// } 
